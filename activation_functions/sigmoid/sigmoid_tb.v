@@ -1,13 +1,20 @@
 module test_sigmoid;
     reg signed [7:0] x;
-    wire [7:0] y;
+    wire [7:0] y_piecewise, y_lut;
     integer i;
     reg reset;
     reg clk;
 
     sigmoid_piecewise instance_piecewise (
         .x_in(x),
-        .y_out(y),
+        .y_out(y_piecewise),
+        .clk(clk),
+        .reset(reset)
+    );
+
+    sigmoid_lut instance_lut (
+        .x_in(x),
+        .y_out(y_lut),
         .clk(clk),
         .reset(reset)
     );
@@ -30,12 +37,12 @@ module test_sigmoid;
       $display("End reset");
 
       $display("Testing Sigmoid Module:");
-      $display("  x\tPieceWise Linear");
+      $display("  x\t\tLUT\t\tPieceWise Linear");
       @(negedge clk)
       for (i = 0; i < 256; i = i + 1) begin
           x = (i - 128); // Test inputs: -128, -96, ..., 127
           @(negedge clk)
-          $display("%d\t\t%d\t\t", x, y);
+          $display("%d\t\t%d\t\t%d\t\t", x, y_lut, y_piecewise);
       end 
         $finish;
     end

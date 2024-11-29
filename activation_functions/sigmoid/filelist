@@ -1,2 +1,3 @@
 piecewise_linear.v
+lut_based.v
 sigmoid_tb.v
