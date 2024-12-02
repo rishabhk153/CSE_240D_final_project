@@ -1,0 +1,3 @@
+piecewise_linear_tanh.v
+lut_based_tanh.v
+tanh_tb.v
