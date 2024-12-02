@@ -1,3 +1,5 @@
 piecewise_linear_tanh.v
 lut_based_tanh.v
+tanh_using_sigmoid.v
+../sigmoid/piecewise_linear.v
 tanh_tb.v
