@@ -32,8 +32,8 @@ module tb_ParametricReLU;
     
     // Test sequence
     initial begin
-        $dumpfile("test_prelu.vcd");
-        $dumpvars(0,tb_ParametricReLU);
+      $dumpfile("test_prelu.vcd");
+      $dumpvars(0,tb_ParametricReLU);
       $display("Begin Reset");
       reset = 0; 
       repeat(2)@(posedge clk);
