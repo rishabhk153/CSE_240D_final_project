@@ -30,21 +30,18 @@ module tanh_using_sigmoid (
 
     // Assign final result
     assign y_s = tanh_temp;
+    
+    
 
     //register the output
-    always @(posedge clk or negedge reset) begin
-      if(~reset) begin
-        y_out <= 0;
+    always @(*) begin
+      if(x_in <= -64) begin
+        y_out <= -8'd128;
+      end else if(x_in >= 64) begin
+        y_out <= 8'd127;
       end
       else begin
-        if(x_in <= -64) begin
-          y_out <= -8'd128;
-        end else if(x_in >= 64) begin
-          y_out <= 8'd127;
-        end
-        else begin
-          y_out <= y_s;
-        end
+        y_out <= y_s;
       end
     end 
 

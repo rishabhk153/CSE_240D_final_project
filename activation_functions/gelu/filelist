@@ -1,0 +1,3 @@
+piecewise_linear_gelu.v
+lut_based_gelu.v
+gelu_tb.v
