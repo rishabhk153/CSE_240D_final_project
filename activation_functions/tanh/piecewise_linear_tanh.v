@@ -12,7 +12,7 @@ module tanh_piecewise (
     localparam signed [7:0] OFFSET_1 = -8'd128;
 
     // For the range -2 to -1
-    localparam signed [7:0] SHIFT_2 = 1;    
+    localparam signed [7:0] SHIFT_2 = 0;    
     localparam signed [7:0] OFFSET_2 = -8'd123;  
 
     // For the range -1 to 1
@@ -21,7 +21,7 @@ module tanh_piecewise (
  
 
     // For the range 1 to 2
-    localparam signed [7:0] SHIFT_4 = 1;    
+    localparam signed [7:0] SHIFT_4 = 0;    
     localparam signed [7:0] OFFSET_4 = 8'd97;
    
     // For the range 2 to 3
@@ -42,9 +42,9 @@ module tanh_piecewise (
             end else if (x_in < -32) begin
                 y_out <= ((x_in + 64) >>> SHIFT_2) + OFFSET_2; // Use shift to approximate slope
             end else if (x_in < 0) begin
-                y_out <= ((x_in + 32) <<< SHIFT_3) + OFFSET_3; // Use shift to approximate slope
+                y_out <= ((x_in + 32) <<< SHIFT_3) + ((x_in + 32) >>> SHIFT_3) + OFFSET_3; // Use shift to approximate slope
             end else if (x_in < 32) begin
-                y_out <= ((x_in) <<< SHIFT_3); // Use shift to approximate slope
+                y_out <= ((x_in) <<< SHIFT_3) + ((x_in + 32) >>> SHIFT_3); // Use shift to approximate slope
             end else if (x_in < 64) begin
                 y_out <= ((x_in - 32) >>> SHIFT_4) + OFFSET_4; // Use shift to approximate slope
             end else if (x_in < 96) begin

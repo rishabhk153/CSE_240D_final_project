@@ -35,7 +35,7 @@ module test_gelu;
    
 
     initial begin
-      $dumpfile("test_tanh.vcd");
+      $dumpfile("test_gelu.vcd");
       $dumpvars(0,test_gelu);
 
       $display("Begin Reset");
