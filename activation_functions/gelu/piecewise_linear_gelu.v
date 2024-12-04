@@ -13,7 +13,7 @@ module gelu_piecewise (
     localparam signed [7:0] SHIFT_2 = 2;    
     localparam signed [7:0] OFFSET_2 = -8'd5;  
 
-    always @(posedge clk or posedge reset) begin
+    always @(posedge clk or negedge reset) begin
         if (~reset) begin
             y_out <= 8'd0;  // Reset to 0
         end else begin
