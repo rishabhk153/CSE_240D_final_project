@@ -36,12 +36,12 @@ module tanh_using_sigmoid (
     //register the output
     always @(*) begin
       if(x_in <= -64) begin
-        y_out <= -8'd128;
+        y_out = -8'd128;
       end else if(x_in >= 64) begin
-        y_out <= 8'd127;
+        y_out = 8'd127;
       end
       else begin
-        y_out <= y_s;
+        y_out = y_s;
       end
     end 
 

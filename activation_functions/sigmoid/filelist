@@ -1,3 +1,4 @@
 piecewise_linear.v
 lut_based.v
+polynomial_approximation.v
 sigmoid_tb.v

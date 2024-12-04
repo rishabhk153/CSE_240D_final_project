@@ -36,8 +36,8 @@ module gelu_using_tanh (
 
     // Compute GELU: 0.5 * x * (1 + scaled_tanh)
     always @(*) begin
-            result <= (x_in * (32 + scaled_tanh)) >>> 5; // Q3.5 * Q3.5 -> Q3.5
-            y_out <= result >>> 1; // Divide by 2
+            result = (x_in * (32 + scaled_tanh)) >>> 5; // Q3.5 * Q3.5 -> Q3.5
+            y_out = result >>> 1; // Divide by 2
     end
 
 endmodule
