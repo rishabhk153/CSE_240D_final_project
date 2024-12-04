@@ -1,3 +1,6 @@
 piecewise_linear_gelu.v
 lut_based_gelu.v
+gelu_using_tanh.v
+../tanh/tanh_using_sigmoid.v
+../sigmoid/piecewise_linear.v
 gelu_tb.v

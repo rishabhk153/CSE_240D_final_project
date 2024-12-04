@@ -1,6 +1,6 @@
 module test_gelu;
     reg signed [7:0] x;
-    wire signed [7:0] y_piecewise, y_lut;
+    wire signed [7:0] y_piecewise, y_lut, y_using_tanh;
     integer i;
     reg reset;
     reg clk;
@@ -15,6 +15,13 @@ module test_gelu;
     gelu_lut instance_lut (
         .x_in(x),
         .y_out(y_lut),
+        .clk(clk),
+        .reset(reset)
+    );
+
+    gelu_using_tanh instance_using_tanh (
+        .x_in(x),
+        .y_out(y_using_tanh),
         .clk(clk),
         .reset(reset)
     );
@@ -38,7 +45,7 @@ module test_gelu;
       $display("End reset");
 
       $display("Testing Tanh Module:");
-      $display("  x\t\tLUT\t\tPieceWise Linear");
+      $display("  x\t\tLUT\t\tPieceWise Linear\t\t");
       @(negedge clk)
       for (i = 0; i < 256; i = i + 1) begin
           x = (i - 128); // Test inputs: -128, -96, ..., 127
