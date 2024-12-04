@@ -7,7 +7,7 @@ module ParametricReLU #(parameter WIDTH = 8, ALPHA_WIDTH = 8) (
 );
 
 
-    always @(posedge clk or posedge reset) begin
+    always @(posedge clk or negedge reset) begin
         if (~reset) begin
             y_out <= 0;  // Reset output
         end else begin
