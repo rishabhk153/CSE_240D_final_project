@@ -30,7 +30,7 @@ module tanh_piecewise (
  
     localparam signed [7:0] OFFSET_6 = 8'd127; 
 
-    always @(posedge clk or posedge reset) begin
+    always @(posedge clk or negedge reset) begin
         if (~reset) begin
             y_out <= 8'd0;  // Reset to 0
         end else begin
