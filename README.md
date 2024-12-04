@@ -1,6 +1,6 @@
 # CSE 240D Final Project: RTL Implementation of Parametric, Non-Linear Activation Functions, Random Number Generation and Softmax
 
-### Activation Functions Implemented
+### Activation Functions Implemented:
 
 1. **Sigmoid**
    - **Description**: Smooth S-shaped function commonly used in classification tasks.
