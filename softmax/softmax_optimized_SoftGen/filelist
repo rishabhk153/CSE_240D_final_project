@@ -1,0 +1,5 @@
+./DW_fp_add.v
+./DW_fp_addsub.v
+./softmax_p4_fixed16_mem_lut.v
+./softmax_tb.v
+
