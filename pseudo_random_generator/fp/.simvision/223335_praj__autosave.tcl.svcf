@@ -1,0 +1,90 @@
+
+#
+# Preferences
+#
+preferences set plugin-enable-svdatabrowser-new 1
+preferences set plugin-enable-groupscope 0
+preferences set plugin-enable-interleaveandcompare 0
+preferences set plugin-enable-waveformfrequencyplot 0
+
+#
+# Mnemonic Maps
+#
+mmap new  -reuse -name {Boolean as Logic} -radix %b -contents {{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}}
+mmap new  -reuse -name {Example Map} -radix %x -contents {{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 730x500+261+33}] != ""} {
+    window geometry "Design Browser 1" 730x500+261+33
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser set -scope  simulator::prng_testbench 
+browser set \
+    -signalsort name
+browser yview see  simulator::prng_testbench 
+browser timecontrol set -lock 0
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 1" -geometry 1920x906+-1+27}] != ""} {
+    window geometry "Waveform 1" 1920x906+-1+27
+}
+window target "Waveform 1" on
+waveform using {Waveform 1}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ps \
+    -valuewidth 75
+waveform baseline set -time 0
+
+set id [waveform add -signals  {
+	simulator::prng_testbench.N
+	} ]
+set id [waveform add -signals  {
+	simulator::prng_testbench.clk
+	} ]
+set id [waveform add -signals  {
+	simulator::prng_testbench.done
+	} ]
+set id [waveform add -signals  {
+	simulator::prng_testbench.load_seed
+	} ]
+set id [waveform add -signals  {
+	{simulator::prng_testbench.prng_output[15:0]}
+	} ]
+set id [waveform add -signals  {
+	simulator::prng_testbench.reset_n
+	} ]
+set id [waveform add -signals  {
+	{simulator::prng_testbench.seed_data[15:0]}
+	} ]
+set id [waveform add -signals  {
+	simulator::prng_testbench.start
+	} ]
+
+waveform xview limits 0 550000ps
+
+#
+# Waveform Window Links
+#
+
+#
+# Console windows
+#
+console set -windowname Console
+window geometry Console 1920x906+-1+27
+
+#
+# Layout selection
+#

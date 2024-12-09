@@ -1,0 +1,20 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
++gui
++access+rwc
++xm64bit
++define+FP_PRNG
++xmstatus
++xmtimescale+1ns/1ps
++xmoveride_timescale
++xmseq_udp_delay+20ps
+-sv
+./bits_to_real.sv
+./fp_prng.sv
+./prng_sha.sv
+./prng.sv
+./sha.sv
+./tb.sv
+tb.sv

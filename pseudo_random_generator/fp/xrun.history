@@ -1,0 +1,45 @@
+s1(28Nov2024:18:38:42):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s2(28Nov2024:18:39:27):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s3(28Nov2024:18:39:58):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s4(28Nov2024:18:41:15):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s5(28Nov2024:18:42:10):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s6(28Nov2024:18:43:31):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s7(28Nov2024:18:44:59):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s8(28Nov2024:18:46:39):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s9(28Nov2024:18:50:50):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s10(28Nov2024:18:53:47):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s11(28Nov2024:18:59:15):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s12(28Nov2024:19:47:07):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s13(28Nov2024:19:47:34):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s14(28Nov2024:19:48:50):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s15(28Nov2024:19:49:41):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s16(28Nov2024:21:08:33):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s17(28Nov2024:21:11:15):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s18(28Nov2024:21:15:00):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s19(28Nov2024:21:17:53):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s20(28Nov2024:21:22:38):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s21(28Nov2024:21:27:45):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s22(28Nov2024:21:50:55):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s23(28Nov2024:21:53:19):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s24(30Nov2024:11:55:25):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv prng.v tb.v 
+s25(30Nov2024:13:25:03):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./src/*.sv tb.v 
+s26(30Nov2024:13:25:26):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.v 
+s27(30Nov2024:13:26:07):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s28(30Nov2024:16:14:08):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s29(30Nov2024:16:17:31):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s30(30Nov2024:16:19:53):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s31(30Nov2024:16:22:10):  xrun +gui +access+rwc +xm64bit +define+SHA_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s32(30Nov2024:16:26:19):  xrun +gui +access+rwc +xm64bit +define+SHA_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s33(30Nov2024:16:28:26):  xrun +gui +access+rwc +xm64bit +define+SHA_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s34(01Dec2024:18:05:15):  xrun +gui +access+rwc +xm64bit +define+SHA_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s35(01Dec2024:18:09:54):  xrun +gui +access+rwc +xm64bit +define+SHA_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s36(01Dec2024:18:22:02):  xrun +gui +access+rwc +xm64bit +define+SHA_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s37(01Dec2024:18:34:03):  xrun +gui +access+rwc +xm64bit +define+SHA_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s38(01Dec2024:18:59:30):  xrun +gui +access+rwc +xm64bit +define+SHA_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./fp_convert.sv ./fp_prng.sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s39(01Dec2024:19:00:41):  xrun +gui +access+rwc +xm64bit +define+SHA_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./fp_convert.sv ./fp_prng.sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s40(01Dec2024:19:01:38):  xrun +gui +access+rwc +xm64bit +define+SHA_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./fp_convert.sv ./fp_prng.sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s41(01Dec2024:19:05:00):  xrun +gui +access+rwc +xm64bit +define+SHA_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./bits_to_real.sv ./fp_prng.sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s42(01Dec2024:19:05:51):  xrun +gui +access+rwc +xm64bit +define+FP_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./bits_to_real.sv ./fp_prng.sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s43(01Dec2024:19:08:38):  xrun +gui +access+rwc +xm64bit +define+FP_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./bits_to_real.sv ./fp_prng.sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s44(01Dec2024:19:09:26):  xrun +gui +access+rwc +xm64bit +define+FP_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./bits_to_real.sv ./fp_prng.sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 
+s45(01Dec2024:19:32:44):  xrun +gui +access+rwc +xm64bit +define+FP_PRNG +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale +xmseq_udp_delay+20ps -sv ./bits_to_real.sv ./fp_prng.sv ./prng_sha.sv ./prng.sv ./sha.sv ./tb.sv tb.sv 

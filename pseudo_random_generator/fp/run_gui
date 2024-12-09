@@ -1,0 +1,11 @@
+xrun  \
++gui \
++access+rwc \
++xm64bit \
++define+LCG_PRNG \
++xmstatus \
++xmtimescale+1ns/1ps \
++xmoveride_timescale \
++xmseq_udp_delay+20ps \
+-sv ./*.sv \
+tb.sv \
