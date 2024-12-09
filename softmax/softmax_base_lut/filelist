@@ -1,0 +1,6 @@
+./exp_lut1.v
+./fifo_depth8.v
+./fifo_mux_2_1.v
+./fifo_mux_8_1.v
+./softmax_tb.v
+./softmax.v
